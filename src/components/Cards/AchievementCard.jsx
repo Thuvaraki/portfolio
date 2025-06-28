@@ -61,16 +61,6 @@ const Top = styled.div`
   gap: 12px;
 `;
 
-const Image = styled.img`
-  height: 50px;
-  background-color: #000;
-  border-radius: 10px;
-  margin-top: 4px;
-  @media only screen and (max-width: 768px) {
-    height: 40px;
-  }
-`;
-
 const Body = styled.div`
   width: 100%;
   display: flex;
@@ -86,50 +76,28 @@ const Name = styled.div`
   }
 `;
 
-const Degree = styled.div`
-  font-size: 14px;
-  font-weight: 500;
-  color: ${({ theme }) => theme.text_secondary + 99};
-  @media only screen and (max-width: 768px) {
-    font-size: 12px;
-  }
-`;
-
-const Date = styled.div`
-  font-size: 12px;
+const Description = styled.div`
+  width: 100%;
+  font-size: 15px;
   font-weight: 400;
-  color: ${({ theme }) => theme.text_secondary + 80};
-  @media only screen and (max-width: 768px) {
-    font-size: 10px;
-  }
-`;
-
-const Grade = styled.div`
-  font-size: 14px;
-  font-weight: 500;
-  color: ${({ theme }) => theme.text_secondary + 99};
+  color: ${({ theme }) => theme.text_primary + 99};
+  margin-bottom: 10px;
   @media only screen and (max-width: 768px) {
     font-size: 12px;
   }
 `;
 
-const EducationCard = ({ education }) => {
+const AchievementCard = ({ achievement }) => {
   return (
     <Card>
       <Top>
-        <Image src={education.img} />
         <Body>
-          <Name>{education.school}</Name>
-          <Degree>{education.degree}</Degree>
-          <Date>{education.date}</Date>
+          <Name>{achievement.title}</Name>
+          <Description>{achievement.description}</Description>
         </Body>
       </Top>
-      <Grade>
-        <b>Grade: </b>
-        {education.grade}
-      </Grade>
     </Card>
   );
 };
 
-export default EducationCard;
+export default AchievementCard;

@@ -240,6 +240,7 @@ const Navbar = () => {
           <NavLink href="#skills">Skills</NavLink>
           <NavLink href="#experience">Experience</NavLink>
           <NavLink href="#projects">Projects</NavLink>
+          <NavLink href="#achievements">Achievements</NavLink>
           <NavLink href="#contact">Contact</NavLink>
         </NavItems>
         <ButtonContainer>
@@ -280,6 +281,14 @@ const Navbar = () => {
               }}
             >
               Projects
+            </MobileLink>
+            <MobileLink
+              href="#achievements"
+              onClick={() => {
+                setIsOpen(!isOpen);
+              }}
+            >
+              Achievements
             </MobileLink>
             <MobileLink
               href="#education"

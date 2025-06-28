@@ -331,3 +331,18 @@ export const projects = [
     ],
   },
 ];
+
+export const achievements = [
+  {
+    id: 0,
+    title: "JuniorHack 5.0 - Winner (Group)",
+    description:
+      "Intra-university hackathon, Organized by Software Engineering Students’ Association, University of Kelaniya",
+  },
+  {
+    id: 1,
+    title: "Py Hack 2.0 - Participant (Group)",
+    description:
+      "Inter-university hackathon, Organized by IEEE WIE Affinity Group of IIT",
+  },
+];
