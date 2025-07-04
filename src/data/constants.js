@@ -207,7 +207,7 @@ export const experiences = [
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqGwqT9eJ7kKwNdI98H0kbovQ1KS7cyIZPFw&s",
     role: "Software Engineer Intern",
     company: "Kapruka Holdings PLC.",
-    date: "Dec 2024 - June 2024",
+    date: "Dec 2024 - June 2025",
     desc: "Contributed to the maintenance and enhancement of a legacy e-commerce application. Developed and optimized full-stack features, including frontend interfaces, backend logic, and database operations. Resolved multiple bugs to improve application stability and performance. Actively participated in team meetings to discuss project progress, clarify requirements, and suggest improvements.",
     skills: ["Java", "JavaScript", "HTML", "SQL", "CSS", "BootStrap"],
   },
