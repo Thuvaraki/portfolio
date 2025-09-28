@@ -5,6 +5,7 @@ import BiteBliss from "../Images/BiteBliss.png";
 import Movie from "../Images/Movie.jpg";
 import PinkPearl from "../Images/PinkPearl.png";
 import Insurance from "../Images/Insurance.png";
+import QuickAi from "../Images/QuickAi.png";
 
 export const Bio = {
   name: "Thuvaraki",
@@ -214,6 +215,23 @@ export const experiences = [
 ];
 
 export const projects = [
+  {
+    id: 7,
+    title: "QuickAi",
+    date: "2025",
+    description:
+      "Quick.ai is an AI-Powered Content Creation Platform , that enables users to generate articles, blog titles, and images, as well as edit images by removing backgrounds or objects. Leveraged Gemini API for text generation, ClipDrop API for image generation, and Cloudinary for image editing. Implemented features for user engagement, including a community section to view, like, and dislike published creations. Built with React, Tailwind CSS, Node.js, Express, and PostgreSQL (Neon), with Clerk handling authentication, profile management, and billing. Designed an intuitive UI including a homepage, dashboard, and user profile, providing a seamless and secure content creation experience.",
+    image: QuickAi,
+    tags: [
+      "React Js",
+      "Node.js",
+      "Express.js",
+      "Postgress (Neon) ",
+      "TailwindCSS",
+      "Clerk",
+    ],
+    github: "https://github.com/Thuvaraki/Quick.ai.git",
+  },
   {
     id: 6,
     title: "LuxeStay",
