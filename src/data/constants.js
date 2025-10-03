@@ -14,7 +14,7 @@ export const Bio = {
     "I'm a Software Engineering undergraduate with a passion for full stack development. I completed a 6 months internship, where I was involved in real-world project and wrote clean, efficient code. Known for my positive attitude, quick learning ability, and growth mindset, I am committed to delivering high-quality, maintainable software solutions and eager to take on new challenges.",
   github: "https://github.com/Thuvaraki",
   resume:
-    "https://drive.google.com/file/d/1RcJLaIE8WhGwCnnAxKv-yOVQzHbRT_QB/view?usp=sharing",
+    "https://drive.google.com/file/d/1-kRd2tom5PIQEJxsZIWBy5a4gp1mRAXH/view?usp=drive_link",
   linkedin: "https://www.linkedin.com/in/thuvaraki-erampamoorthy/",
 };
 
