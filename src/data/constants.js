@@ -6,6 +6,7 @@ import Movie from "../Images/Movie.jpg";
 import PinkPearl from "../Images/PinkPearl.png";
 import Insurance from "../Images/Insurance.png";
 import QuickAi from "../Images/QuickAi.png";
+import BSN from "../Images/BSN.jpeg";
 
 export const Bio = {
   name: "Thuvaraki",
@@ -14,7 +15,7 @@ export const Bio = {
     "I'm a Software Engineering undergraduate with a passion for full stack development. I completed a 6 months internship, where I was involved in real-world project and wrote clean, efficient code. Known for my positive attitude, quick learning ability, and growth mindset, I am committed to delivering high-quality, maintainable software solutions and eager to take on new challenges.",
   github: "https://github.com/Thuvaraki",
   resume:
-    "https://drive.google.com/file/d/1-kRd2tom5PIQEJxsZIWBy5a4gp1mRAXH/view?usp=drive_link",
+    "https://drive.google.com/file/d/1OObKqhd_1boyzVa3xcuqzoG7gTTkj3xT/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/thuvaraki-erampamoorthy/",
 };
 
@@ -81,6 +82,21 @@ export const skills = [
         image:
           "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png",
       },
+      {
+        name: "TailwindCSS",
+        image:
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVgHWDyjwN9qZsPChFzc5PRfOOOqbfgXqR3w&s",
+      },
+      {
+        name: "Angular",
+        image:
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROSVsyTE3Rq2DeKnZ9DvrUCTjEv6k0NTDNvw&s",
+      },
+      {
+        name: "TypeScript",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Typescript.svg/1200px-Typescript.svg.png",
+      },
     ],
   },
   {
@@ -114,6 +130,11 @@ export const skills = [
         name: "MongoDB",
         image:
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
+      },
+      {
+        name: "postgresql",
+        image:
+          "https://www.arbin.com/wp-content/uploads/2024/09/ARBIN-Introduction-Postgre-SQL-i2.png",
       },
       {
         name: "Firebase",
@@ -215,6 +236,24 @@ export const experiences = [
 ];
 
 export const projects = [
+  {
+    id: 8,
+    title: "Book Social Network",
+    date: "2025",
+    description:
+      "Book Social Network is a full-stack web application designed for book enthusiasts to manage their personal book collections and engage with a community of readers. The platform allows users to register securely, validate their accounts via email, and manage their books by creating, updating, archiving, and sharing them with others. It features a robust borrowing system that ensures availability checks before lending books, along with a return process that includes admin approval for enhanced accountability. The application follows RESTful API best practices and implements JWT-based authentication for secure access. Additionally, it includes comprehensive API documentation through Swagger UI and OpenAPI integration, ensuring transparency and ease of interaction between frontend and backend services.",
+    image: BSN,
+    tags: [
+      "Spring Boot",
+      "Spring Security",
+      "Angular",
+      "PostgreSQL",
+      "JWT",
+      "Docker",
+      "OpenAPI and Swagger UI Documentation",
+    ],
+    github: "https://github.com/Thuvaraki/Book-Social-Network.git",
+  },
   {
     id: 7,
     title: "QuickAi",
