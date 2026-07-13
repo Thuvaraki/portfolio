@@ -1,4 +1,3 @@
-import { useState } from "react";
 import ProjectCard from "../Cards/ProjectsCard";
 import { projects } from "../../data/constants";
 import styled from "styled-components";
@@ -63,7 +62,7 @@ const Projects = ({ openModal, setOpenModal }) => {
           {projects.map(
             (project) => (
               console.log("openModal", openModal),
-              console.log("setOpenModal", setOpenModal),
+              console.log("setOpenModal", setOpenModal)
               (
                 <ProjectCard
                   project={project}
