@@ -11,7 +11,7 @@ import CSI from "../Images/cloudsolutionlk_logo.jpeg"
 
 export const Bio = {
     name: "Thuvaraki",
-    roles: ["QA Engineer"],
+    roles: ["Quality Engineer"],
     description:
         "A highly motivated individual with hands-on experience in manual testing, mobile automation, API testing, AI application testing, and performance testing for Hospital Information System. Experienced in designing and executing functional, regression, integration, and exploratory test scenarios, while developing Android automation solutions using Java, Appium, Selenium WebDriver, and TestNG. Familiar with Agile methodologies, defect management, API validation, and quality engineering practices with a focus on delivering reliable software.",
     github: "https://github.com/Thuvaraki",
