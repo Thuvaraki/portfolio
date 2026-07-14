@@ -97,6 +97,18 @@ const SkillImage = styled.img`
   height: 24px;
 `;
 
+const getSkillFallback = (name) => {
+  const initials = name
+    .split(/\s+/)
+    .map((word) => word[0])
+    .join("")
+    .slice(0, 2)
+    .toUpperCase();
+  const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><rect width="24" height="24" rx="5" fill="#854ce6"/><text x="12" y="16" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="700" fill="white">${initials}</text></svg>`;
+
+  return `data:image/svg+xml,${encodeURIComponent(svg)}`;
+};
+
 const Wrapper = styled.div`
   position: relative;
   display: flex;
@@ -118,12 +130,19 @@ const Skills = () => {
         <Title>Skills</Title>
         <SkillsContainer>
           {skills.map((skill) => (
-            <Skill>
+            <Skill key={skill.title}>
               <SkillTitle>{skill.title}</SkillTitle>
               <SkillList>
                 {skill.skills.map((item) => (
-                  <SkillItem>
-                    <SkillImage src={item.image} />
+                  <SkillItem key={item.name}>
+                    <SkillImage
+                      src={item.image}
+                      alt={`${item.name} logo`}
+                      onError={(event) => {
+                        event.currentTarget.onerror = null;
+                        event.currentTarget.src = getSkillFallback(item.name);
+                      }}
+                    />
                     {item.name}
                   </SkillItem>
                 ))}

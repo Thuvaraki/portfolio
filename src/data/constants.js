@@ -16,7 +16,7 @@ export const Bio = {
         "A highly motivated individual with hands-on experience in manual testing, mobile automation, API testing, AI application testing, and performance testing for Hospital Information System. Experienced in designing and executing functional, regression, integration, and exploratory test scenarios, while developing Android automation solutions using Java, Appium, Selenium WebDriver, and TestNG. Familiar with Agile methodologies, defect management, API validation, and quality engineering practices with a focus on delivering reliable software.",
     github: "https://github.com/Thuvaraki",
     resume:
-        "https://drive.google.com/file/d/1OObKqhd_1boyzVa3xcuqzoG7gTTkj3xT/view?usp=sharing",
+        "https://drive.google.com/file/d/1_94tXXnkI_x2TXJ_xaoaNyf93-Vyo10S/view?usp=sharing",
     linkedin: "https://www.linkedin.com/in/thuvaraki/",
 };
 
