@@ -7,6 +7,7 @@ import PinkPearl from "../Images/PinkPearl.png";
 import Insurance from "../Images/Insurance.png";
 import QuickAi from "../Images/QuickAi.png";
 import BSN from "../Images/BSN.jpeg";
+import CSI from "../Images/cloudsolutionlk_logo.jpeg"
 
 export const Bio = {
     name: "Thuvaraki",
@@ -338,7 +339,7 @@ export const skills = [
 export const experiences = [
     {
         id: 1,
-        img: "https://cloudsolutions.lk/",
+        img: CSI,
         role: "QA Engineer Intern",
         company: "Cloud Solutions International",
         date: "Feb 2026 - Aug 2026",
