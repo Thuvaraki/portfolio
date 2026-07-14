@@ -59,19 +59,14 @@ const Projects = ({ openModal, setOpenModal }) => {
       <Wrapper>
         <Title>Projects</Title>
         <CardContainer>
-          {projects.map(
-            (project) => (
-              console.log("openModal", openModal),
-              console.log("setOpenModal", setOpenModal)
-              (
-                <ProjectCard
-                  project={project}
-                  openModal={openModal}
-                  setOpenModal={setOpenModal}
-                />
-              )
-            )
-          )}
+          {projects.map((project) => (
+            <ProjectCard
+              key={project.id || project.title}
+              project={project}
+              openModal={openModal}
+              setOpenModal={setOpenModal}
+            />
+          ))}
         </CardContainer>
         {openModal.state && (
           <ProjectDetails openModal={openModal} setOpenModal={setOpenModal} />
