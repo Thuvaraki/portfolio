@@ -49,6 +49,136 @@ export const education = [
 
 export const skills = [
     {
+        title: "Automation Testing",
+        skills: [
+            {
+                name: "Selenium WebDriver",
+                image:
+                    "https://upload.wikimedia.org/wikipedia/commons/d/d5/Selenium_Logo.png",
+            },
+            {
+                name: "Appium",
+                image:
+                    "https://appium.io/docs/en/latest/assets/images/appium-logo-horiz.png",
+            },
+            {
+                name: "Rest Assured",
+                image:
+                    "https://raw.githubusercontent.com/rest-assured/rest-assured/master/rest-assured-logo.png",
+            },
+            {
+                name: "Playwright",
+                image:
+                    "https://playwright.dev/img/playwright-logo.svg",
+            },
+            {
+                name: "TestNG",
+                image:
+                    "https://testng.org/doc/images/testng-logo.png",
+            },
+            {
+                name: "JUnit",
+                image:
+                    "https://raw.githubusercontent.com/devicons/devicon/master/icons/junit/junit-original.svg",
+            },
+            {
+                name: "Page Object Model",
+                image:
+                    "https://www.selenium.dev/images/selenium_logo_square_green.png",
+            },
+        ],
+    },
+    {
+        title: "Performance Testing",
+        skills: [
+            {
+                name: "Apache JMeter",
+                image:
+                    "https://jmeter.apache.org/images/jmeter.png",
+            },
+            {
+                name: "K6",
+                image:
+                    "https://k6.io/docs/images/k6-logo.svg",
+            },
+            {
+                name: "Locust",
+                image:
+                    "https://raw.githubusercontent.com/locustio/locust/master/docs/images/locust-logo.svg",
+            },
+        ],
+    },
+    {
+        title: "Tools",
+        skills: [
+            {
+                name: "Postman",
+                image:
+                    "https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg",
+            },
+            {
+                name: "Insomnia",
+                image:
+                    "https://raw.githubusercontent.com/Kong/insomnia/develop/packages/insomnia/src/ui/assets/images/logo.svg",
+            },
+            {
+                name: "Jira",
+                image:
+                    "https://cdn.worldvectorlogo.com/logos/jira-1.svg",
+            },
+            {
+                name: "TestRail",
+                image:
+                    "https://www.gurock.com/wp-content/uploads/2021/05/TestRail-logo.svg",
+            },
+            {
+                name: "Android Studio",
+                image:
+                    "https://developer.android.com/static/studio/images/studio-icon.svg",
+            },
+            {
+                name: "IntelliJ IDEA",
+                image:
+                    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/intellij/intellij-original.svg",
+            },
+            {
+                name: "VS Code",
+                image:
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png",
+            },
+        ],
+    },
+    {
+        title: "DevOps & CI/CD",
+        skills: [
+            {
+                name: "Git",
+                image:
+                    "https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg",
+            },
+            {
+                name: "GitHub",
+                image:
+                    "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
+            },
+            {
+                name: "Jenkins",
+                image:
+                    "https://raw.githubusercontent.com/devicons/devicon/master/icons/jenkins/jenkins-original.svg",
+            },
+            {
+                name: "Docker",
+                image:
+                    "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg",
+            },
+            {
+                name: "AWS",
+                image:
+                    "https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg",
+            },
+        ],
+    },
+    {
         title: "Frontend",
         skills: [
             {
@@ -180,140 +310,6 @@ export const skills = [
             },
         ],
     },
-
-    {
-        title: "Automation Testing",
-        skills: [
-            {
-                name: "Selenium WebDriver",
-                image:
-                    "https://upload.wikimedia.org/wikipedia/commons/d/d5/Selenium_Logo.png",
-            },
-            {
-                name: "Appium",
-                image:
-                    "https://appium.io/docs/en/latest/assets/images/appium-logo-horiz.png",
-            },
-            {
-                name: "Rest Assured",
-                image:
-                    "https://raw.githubusercontent.com/rest-assured/rest-assured/master/rest-assured-logo.png",
-            },
-            {
-                name: "Playwright",
-                image:
-                    "https://playwright.dev/img/playwright-logo.svg",
-            },
-            {
-                name: "TestNG",
-                image:
-                    "https://testng.org/doc/images/testng-logo.png",
-            },
-            {
-                name: "JUnit",
-                image:
-                    "https://raw.githubusercontent.com/devicons/devicon/master/icons/junit/junit-original.svg",
-            },
-            {
-                name: "Page Object Model",
-                image:
-                    "https://www.selenium.dev/images/selenium_logo_square_green.png",
-            },
-        ],
-    },
-
-    {
-        title: "Performance Testing",
-        skills: [
-            {
-                name: "Apache JMeter",
-                image:
-                    "https://jmeter.apache.org/images/jmeter.png",
-            },
-            {
-                name: "K6",
-                image:
-                    "https://k6.io/docs/images/k6-logo.svg",
-            },
-            {
-                name: "Locust",
-                image:
-                    "https://raw.githubusercontent.com/locustio/locust/master/docs/images/locust-logo.svg",
-            },
-        ],
-    },
-    {
-        title: "Testing Tools",
-        skills: [
-            {
-                name: "Postman",
-                image:
-                    "https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg",
-            },
-            {
-                name: "Insomnia",
-                image:
-                    "https://raw.githubusercontent.com/Kong/insomnia/develop/packages/insomnia/src/ui/assets/images/logo.svg",
-            },
-            {
-                name: "Jira",
-                image:
-                    "https://cdn.worldvectorlogo.com/logos/jira-1.svg",
-            },
-            {
-                name: "TestRail",
-                image:
-                    "https://www.gurock.com/wp-content/uploads/2021/05/TestRail-logo.svg",
-            },
-            {
-                name: "Android Studio",
-                image:
-                    "https://developer.android.com/static/studio/images/studio-icon.svg",
-            },
-            {
-                name: "IntelliJ IDEA",
-                image:
-                    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/intellij/intellij-original.svg",
-            },
-            {
-                name: "VS Code",
-                image:
-                    "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png",
-            },
-        ],
-    },
-
-    {
-        title: "DevOps & CI/CD",
-        skills: [
-            {
-                name: "Git",
-                image:
-                    "https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg",
-            },
-            {
-                name: "GitHub",
-                image:
-                    "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
-            },
-            {
-                name: "Jenkins",
-                image:
-                    "https://raw.githubusercontent.com/devicons/devicon/master/icons/jenkins/jenkins-original.svg",
-            },
-            {
-                name: "Docker",
-                image:
-                    "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg",
-            },
-            {
-                name: "AWS",
-                image:
-                    "https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg",
-            },
-        ],
-    },
-
     {
         title: "Methodologies",
         skills: [
